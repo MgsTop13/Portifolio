@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    --bgDark: #1E1E1E;
+    --bgHeaderDark: #2E2E2E;
+    --bgCardDark: #252525;
+    --colorTextDark: #FFFFFF;
+
+    --textRGB0: #572CBE;
+    --textRGB50: #474EDF;
+    --textRGB100: #572CBE;
+
+    --textLi0: #FFFFFF;
+    --textLi50: #888585;
+    --textLi100: #717171;
+
+    background-color: var(--bgDark);
+}
