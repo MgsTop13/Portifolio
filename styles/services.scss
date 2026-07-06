@@ -1,0 +1,71 @@
+.services {
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+
+
+    gap: 30px;
+
+    color: var(--text);
+
+    .service {
+        position: relative;
+        width: 55%;
+        height: 270px;
+        background-color: var(--bgCard);
+        border-radius: 8px;
+        padding: 20px;
+        
+        .title2 {
+            margin-bottom: 15px;
+            width: 30%;
+            background-color: var(--bgDark);
+            text-align: start;
+            font-size: 1.6rem;
+        }
+
+        .desc1 {
+            background-color: blue;
+            text-align: center;
+            font-size: 1.2rem;
+            width: 60%;
+
+        }
+
+        .products {
+            display: flex;
+            justify-content: space-between;
+            width: 80%;
+            background-color: red;
+
+            .desc{
+                text-align: center;
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    .Celulares{
+        width: 80%;
+        margin-left: 8%;
+
+        .title2{
+            text-align: center;
+            position: relative;
+            left: 50%;
+            transform: translate(-50%);
+        }
+    }
+
+
+    .WebSites{
+        margin-left: 40%;
+
+        .title2{
+            text-align: end;
+            padding-right: 2%;
+            margin-left: 67%;
+        }
+    }
+}

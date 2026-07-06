@@ -6,9 +6,9 @@
 
 body{
     --bgDark: #1E1E1E;
-    --bgHeaderDark: #2E2E2E;
-    --bgCardDark: #252525;
-    --colorTextDark: #FFFFFF;
+    --bgHeader: #2E2E2E;
+    --bgCard: #252525;
+    --text: #FFFFFF;
 
     --textRGB0: #572CBE;
     --textRGB50: #474EDF;

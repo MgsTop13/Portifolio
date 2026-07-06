@@ -42,14 +42,15 @@
     width: 320px;
     height: 400px;
 
-    background-color: var(--bgCardDark);
+    background-color: var(--bgCard);
     border-radius: 4px;
 }
 
 
 .aboutMe .cardMe::after,
 .aboutMe .cardMe::before,
-.card::after, .card::before{
+.card::after, .card::before,
+.service::after, .service::before{
     content: '';
     position: absolute;
     height: 100%;
@@ -89,7 +90,7 @@
     text-align: center;
 }
 
-.aboutMe .cardMe .text .titleRGB {
+.aboutMe .cardMe .text .titleRGB, .title {
     background: linear-gradient(to left, var(--textRGB0), var(--textRGB50), var(--textRGB100));
     background-size: 200% auto;
     -webkit-background-clip: text;

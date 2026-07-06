@@ -25,7 +25,7 @@
 .cardsHability .cards .card{
     position: relative;
     height: 180px;
-    background-color: var(--bgCardDark);
+    background-color: var(--bgCard);
     border-radius: 6px;
 }
 
