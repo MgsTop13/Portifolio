@@ -1,18 +1,16 @@
-import { myProjects } from "../components/projects.tsx"
+import ProjectsComponent from "../components/projects.tsx"
 import ServicesC from "../components/services.tsx"
 
 import { useState } from "react";
 
-import "../styles/header.css";
+import "../styles/header.scss";
 import "../styles/aboutMe.css";
 import "../styles/global.css";
 import "../styles/hability.css";
-import "../styles/projects.css";
+import "../styles/social.scss";
 
 
 export default function App() {
-  
-
   return (
     <main className="home">
       <header>
@@ -99,6 +97,7 @@ export default function App() {
       </h1>
 
       <div className="projects">
+        <ProjectsComponent />
       </div>
 
       <div className="services">
@@ -106,7 +105,11 @@ export default function App() {
 
         <ServicesC />
       </div>
-      <h1 className="title">Onde me encontrar?</h1>
+
+      <div className="social">
+        <h1 className="title">Onde me encontrar?</h1>
+
+      </div>
     </main>
   );
 }

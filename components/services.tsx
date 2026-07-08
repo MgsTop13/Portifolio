@@ -34,7 +34,7 @@ const myServices: Services[] = [
         id: 2,
         name: "WebSites",
         description: "Desenvolvimento de sites para lojas",
-        services: ["Site simples (cardápio)", "Site com integração (whatsapp ou pagamentos)", "Sites complexos (segurança, pagamentos e adapto a outros dispositivos)"],
+        services: ["Site simples (cardápio)", "Site com integração a apps", "Sites complexos"],
         logo: "ntenhokk",
         value: [799.99, 1299.99, 1499.99],
         img: "aaa"
@@ -65,8 +65,8 @@ export default function ServicesC() {
                     .filter((item) => item.category === service.name)
                     .map((item) => (
                         <div className="products">
-                            <h2 className="desc">{item.name}</h2>
-                            <h2 className="desc">R${item.value}</h2>
+                            <h2 className="name">{item.name}</h2>
+                            <h2 className="value">R${item.value}</h2>
                         </div>
                     ))}
             </div>

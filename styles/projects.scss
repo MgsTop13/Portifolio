@@ -1,0 +1,73 @@
+.projects {
+    width: 100%;
+    margin-top: 5%;
+    padding: 3%;
+    color: var(--text);    
+    
+    .title {
+        text-align: flex-start;
+        width: 100%;
+    }
+    
+    
+    .card{
+        position: relative;
+        width: 90%;
+        height: 340px;
+        background-color: var(--bgCard);
+        display: flex;
+        justify-content: space-between;
+
+        .info{
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+
+            h1{
+                padding-left: 3%;
+                height: 40px;
+                background-color: var(--bgDark);
+            }
+
+            h3{
+                padding: 15px;
+            }
+        }
+
+        .imgs{
+            padding: 25px;
+            display: flex;
+            flex-direction: column;
+            align-items: end;
+            position: relative;
+            width: 50%;
+
+            img{
+                width: 15%;
+            }
+
+            .imgs2{
+                position: absolute;
+                bottom: 40px;
+                width: 60%;
+                right: 15%;
+                img{
+                    transition: 450ms; 
+                    width: 100%;
+
+                    &:active{
+                        border-radius: 10px;
+                        transform: scale(1.4);
+                    }
+
+                    &:hover{
+                        cursor: pointer
+                    }
+                }
+            }
+        }
+    }
+
+
+}

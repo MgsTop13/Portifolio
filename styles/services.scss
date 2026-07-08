@@ -1,22 +1,32 @@
 .services {
+    margin-top: 5%;
     width: 100%;
 
     display: flex;
     flex-direction: column;
 
+    .title{
+        margin-left: 5%;
+        width: 90%;
+        text-align: end;
+    }
 
     gap: 30px;
-
+ 
     color: var(--text);
 
     .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
         position: relative;
         width: 55%;
-        height: 270px;
+        height: 230px;
         background-color: var(--bgCard);
         border-radius: 8px;
         padding: 20px;
-        
+
         .title2 {
             margin-bottom: 15px;
             width: 30%;
@@ -26,7 +36,6 @@
         }
 
         .desc1 {
-            background-color: blue;
             text-align: center;
             font-size: 1.2rem;
             width: 60%;
@@ -36,33 +45,45 @@
         .products {
             display: flex;
             justify-content: space-between;
-            width: 80%;
-            background-color: red;
+            width: 70%;
+            padding: 5px;
 
-            .desc{
+            .name,
+            .value {
                 text-align: center;
                 font-size: 1.2rem;
+            }
+
+            .value {
+                width: 20%;
             }
         }
     }
 
-    .Celulares{
+    .Computadores {
+        align-items: flex-start;
+    }
+
+    .Celulares {
         width: 80%;
+        height: 260px;
         margin-left: 8%;
 
-        .title2{
+        .title2 {
             text-align: center;
-            position: relative;
-            left: 50%;
-            transform: translate(-50%);
+        }
+
+        .products {
+            width: 50%;
         }
     }
 
 
-    .WebSites{
+    .WebSites {
         margin-left: 40%;
+        align-items: flex-end;
 
-        .title2{
+        .title2 {
             text-align: end;
             padding-right: 2%;
             margin-left: 67%;
