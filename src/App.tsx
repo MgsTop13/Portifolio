@@ -10,6 +10,7 @@ import "../styles/hability.css";
 import "../styles/social.scss";
 
 
+
 export default function App() {
   return (
     <main className="home">
@@ -105,6 +106,7 @@ export default function App() {
 
         <ServicesC />
       </div>
+
 
       <div className="social">
         <h1 className="title">Onde me encontrar?</h1>

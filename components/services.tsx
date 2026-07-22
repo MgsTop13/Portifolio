@@ -1,4 +1,4 @@
-import "../styles/services.scss"
+import "../styles/services.scss";
 
 interface Services {
     id: number,
@@ -8,7 +8,8 @@ interface Services {
     logo: string;
     value: number[];
     img: string;
-}
+};
+
 const myServices: Services[] = [
     {
         id: 0,
@@ -26,7 +27,7 @@ const myServices: Services[] = [
         description: "Manutenção em celulares android's",
         services: ["Manuntenção de tela/display", "Manuntenção de conectores", "Troca de baterias", "Problemas de sistemas"],
         logo: "ntenhokk",
-        value: [120, 59.99, 74.99, 14.99],
+        value: [119.90, 59.99, 74.99, 34.99],
         img: "aaa"
     },
 
@@ -34,9 +35,9 @@ const myServices: Services[] = [
         id: 2,
         name: "WebSites",
         description: "Desenvolvimento de sites para lojas",
-        services: ["Site simples (cardápio)", "Site com integração a apps", "Sites complexos"],
+        services: ["Site simples", "Site com integração a apps", "Sites complexos"],
         logo: "ntenhokk",
-        value: [799.99, 1299.99, 1499.99],
+        value: [599.99, 999.99, 1899.99],
         img: "aaa"
     }
 ]
